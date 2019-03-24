@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang='pt-br'>
+
+<head>
+	<title>Projeto 05</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/queries.css" rel="stylesheet" type="text/css">
+	<link href="images/logo.ico" rel="shortcut icon" type="image-x/png">
+	<meta charset="utf-8" />
+	<meta name="description" content="Site para você comrpar o carro ideal">
+	<meta name="keywords" content="carros,venda,aluguel,automovel">
+	<meta name="author" content="Caio Quirino">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+
+</head>
+
+<body id="topo">
+
+<header class="header">
+	<div class="header__logo">
+		<a href="#topo"><img src="images/logo.jpg" alt="logo"></a>
+		<i class="icon ion-md-menu"></i>
+	</div><!--header__logo-->
+	<div class="header__nav">
+		<ul>
+			<li><a style="color: rgb(235, 45, 45)" href="index.html">Home</a></li>
+			<li><a href="venda.html">Venda</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#eventos">Eventos</a></li>
+			<li><a href="sobre.html">Sobre Nós</a></li>
+			<li><a href="index.html#contato">Contato</a></li>
+		</ul>
+	</div><!--header__nav-->
+</header><!--header-->
+
+<section class="banner">
+	<div class="banner__box">
+		<div class="banner__box--title">
+			<h1>Consultoria</h1>
+		</div>
+		<div class="banner__box--title">
+			<h1>Compra</h1>
+		</div>
+		<div class="banner__box--title">
+			<h1>Venda</h1>
+		</div>
+		<div class="banner__box--title">
+			<h1>contato@rmveiculosespeciais.com.br</h1>
+		</div>
+	
+	</div><!--banner__box-->
+</section><!--banner-->
+
+<section class="destaque" id="venda">
+	<div class="title">
+		<div class="title--line"></div>
+		<h2>Veículos em destaque</h2>
+	</div><!--destaque__title-->
+	<div class="destaque__box">
+		<div class="destaque__wrapper">
+			<div class="destaque__box--single">
+				<img src="images/carro-1.jpg">
+				<h3>Volkswagen Karmann-ghia</h3>
+				<p>1.6 8v, 2P, Manual - 1969</p>
+				<div class="cega">
+					<div class="btn">
+						<a href="#">Mais detalhes</a>
+					</div><!--btn-->
+				</div><!--cega-->
+			</div><!--destaque__box--single-->
+			<div class="destaque__box--single">
+				<img src="images/carro-1.jpg">
+				<h3>Volkswagen Karmann-ghia</h3>
+				<p>1.6 8v, 2P, Manual - 1969</p>
+				<div class="cega">
+					<div class="btn">
+						<a href="#">Mais detalhes</a>
+					</div><!--btn-->
+				</div><!--cega-->
+			</div><!--destaque__box--single-->
+			<div class="destaque__box--single">
+				<img src="images/carro-1.jpg">
+				<h3>Volkswagen Karmann-ghia</h3>
+				<p>1.6 8v, 2P, Manual - 1969</p>
+				<div class="cega">
+					<div class="btn">
+						<a href="#">Mais detalhes</a>
+					</div><!--btn-->
+				</div><!--cega-->
+			</div><!--destaque__box--single-->
+			<div class="destaque__box--single">
+				<img src="images/carro-1.jpg">
+				<h3>Volkswagen Karmann-ghia</h3>
+				<p>1.6 8v, 2P, Manual - 1969</p>
+				<div class="cega">
+					<div class="btn">
+						<a href="#">Mais detalhes</a>
+					</div><!--btn-->
+				</div><!--cega-->
+			</div><!--destaque__box--single-->
+			
+		</div><!--destaque__wrapper-->
+	</div><!--destaque__box-->
+</section><!--destaque-->
+
+<section class="serv-dep" id="sobre">
+	<div class="serv-dep__container">
+		<div class="servicos">
+			<h2>Serviços</h2>
+			<ul>
+				<li>Compra</li>
+				<li>Venda</li>
+				<li>Consignação</li>
+				<li>Consultoria de Veículos</li>
+				<li>Indicação de mecânicos e peças</li>
+			</ul>
+			<div class="cega">
+				<div class="btn">
+					<a>Saiba mais</a>
+				</div><!--btn-->
+			</div><!--cega-->
+		</div><!--servicos-->
+	</div><!--serv-dep__container-->
+	<div class="serv-dep__container">
+		<div class="depoimentos">
+			<h2>Depoimentos</h2>
+			<p>"O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-drive"</p>
+			<span>Gustavo Teixeira - Colecionador</span>
+		</div><!--depoimentos-->
+	</div><!--serv-dep__container-->
+</section><!--serv-dep-->
+
+<section class="form" id="contato">
+	<div class="title">
+		<div class="title--line"></div>
+		<h2>Entre em contato</h2>
+	</div><!--destaque__title-->
+	<form class="form__form">
+		<input type="text" name="nome" id="nome" placeholder="nome" required>
+		<div>
+			<input type="email" name="email" id="email" placeholder="email" required>
+			<input type="telefone" name="telefone" id="telefone" placeholder="telefone" required>
+		</div>
+		<textarea name="mensagem" id="mensagem" rows="5" cols="10" placeholder="mensagem"></textarea>
+		<div class="destaque--btn">
+			<input type="submit" name="acao" value="Enviar">
+		</div>
+	</form><!--form__form-->
+</section><!--form-->
+
+<footer class="footer">
+	<div class="header__nav">
+		<ul>
+			<li><a style="color: rgb(235, 45, 45)!important" href="index.html">Home</a></li>
+			<li><a href="venda.html">Venda</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#eventos">Eventos</a></li>
+			<li><a href="sobre.html">Sobre Nós</a></li>
+			<li><a href="index.html#contato">Contato</a></li>
+		</ul>
+	</div><!--header__nav-->
+	<div class="footer__direitos">
+		<p>Todos os direitos reservados a &copy; Caio Quirino Medeiros</p>
+	</div><!--footer__direitos-->
+</footer><!--footer-->
+
+<script src="js/control.js"></script>
+</body>
+
+</html>
