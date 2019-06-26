@@ -1,0 +1,119 @@
+/********** ATÉ 1024px **********/
+@media only screen and (max-width: 1024px) {
+body, html {
+    font-size: 16px;
+}
+.header__logo img {
+    height: 45px;
+}
+.destaque {
+    padding: 60px 10%;
+}
+.serv-dep__container {
+    padding: 60px 4%;
+}
+.footer {
+    height: 60px;
+}
+.footer > .header__nav > li {
+    font-size: 95%;
+}
+.footer__direitos {
+    font-size: 80%;
+}
+}
+
+/********** ATÉ 760px **********/
+@media only screen and (max-width: 760px) {
+body, html {
+    font-size: 15px;
+}
+.header {
+    flex-direction: column;
+}
+.header__logo > img {
+    height: 40px;
+}
+.header__logo > i {
+    display: block;
+}
+.header > .header__nav > ul {
+    margin: 0 auto;
+    display: none;
+}
+.header__nav a:after {
+    display: none;
+}
+.header__nav a:hover:after {
+    transform: none;
+}
+.banner__box--title:nth-of-type(1) {
+    width: 225px;
+}
+.banner__box--title:nth-of-type(2) {
+    width: 200px;
+}
+.banner__box--title:nth-of-type(4) {
+    font-size: 70%;
+    min-width: 390px;
+}
+.banner__box--title > h1 {
+    font-size: 180%;
+}
+.destaque {
+	padding: 60px 5%;
+}
+.destaque__box--single > h3 {
+    text-align: center;
+}
+.destaque__box--single > p {
+    text-align: center;
+}
+.destaque__box--single > .cega {
+    text-align: center;
+}
+.serv-dep {
+	height: 650px;
+    flex-direction: column;
+    background-image: url('../images/newcar.jpg');
+}
+.serv-dep__container {
+    width: 100%;
+    height: 50%;
+    padding: 40px 10%;
+}
+.servicos > h2 {
+    text-align: center;
+}
+.servicos > ul {
+    list-style: none;
+    text-align: center;
+}
+.servicos > ul > li {
+    font-size: 110%;
+}
+.servicos > .cega {
+    text-align: center;
+}
+.depoimentos > h2 {
+    text-align: center;
+}
+.form {
+	padding: 60px 5%;
+}
+.form__form {
+    width: 90%;
+}
+.footer {
+    height: auto;
+    flex-direction: column;
+}
+.footer > .header__nav {
+    padding: 15px 0;
+    margin: 0;
+}
+.footer__direitos {
+    padding: 5px 0;
+    margin: 0;
+}
+}

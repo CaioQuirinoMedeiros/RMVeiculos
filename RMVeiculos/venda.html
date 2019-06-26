@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang='pt-br'>
+
+<head>
+	<title>RM Veículos Especiais</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600" rel="stylesheet">
+	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/venda.css" rel="stylesheet" type="text/css">
+	<link href="css/queries.css" rel="stylesheet" type="text/css">
+	<link href="images/logo.ico" rel="shortcut icon" type="image-x/png">
+
+	<meta charset="utf-8" />
+	<meta name="description" content="Site para você comrpar o carro ideal">
+	<meta name="keywords" content="carros,venda,aluguel,automovel">
+	<meta name="author" content="Caio Quirino">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+
+</head>
+
+<body id="topo">
+
+<header class="header">
+	<div class="header__logo">
+		<a href="#topo"><img src="images/logo.jpg" alt="logo"></a>
+		<i class="icon ion-md-menu"></i>
+	</div><!--header__logo-->
+	<div class="header__nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a style="color: rgb(235, 45, 45)" href="venda.html">Venda</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#eventos">Eventos</a></li>
+			<li><a href="sobre.html">Sobre Nós</a></li>
+			<li><a href="index.html#contato">Contato</a></li>
+		</ul>
+	</div><!--header__nav-->
+</header><!--header-->
+
+<section class="venda">
+	<div class="title">
+		<div class="title--line"></div>
+		<h2>Veículos para venda</h2>
+	</div><!--title-->
+
+	<div class="venda__box">
+		<aside class="filtros">
+			<div class="filtro">
+				<h3>Filtre por preço</h3>
+				<div class="filtro-preço">
+					<span>R$</span><input type="number" name="preço" id="preço" min="5000" max="70000" value="50000">
+				</div><!--filtro-preço-->
+				<input type="range" name="preço" id="preço-slider" min="5000" max="70000" value="50000">
+				<div class="filtro-preço-slider">
+					<span>R$5.000</span>
+					<span>R$70.000</span>
+				</div><!--filtro-preço-slider-->
+			</div><!--filtro-->
+			<div class="filtro">
+				<h3>Filtre por ano</h3>
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="all">
+					<span>Todas décadas</span>
+				</div><!--filtro-ano-->
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="2000">
+					<span>2000 a 2009</span>
+				</div><!--filtro-ano-->
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="1990">
+					<span>1990 a 1999</span>
+				</div><!--filtro-ano-->
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="1980">
+					<span>1980 a 1989</span>
+				</div><!--filtro-ano-->
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="1970">
+					<span>1970 a 1979</span>
+				</div><!--filtro-ano-->
+				<div class="filtro-ano">
+					<input type="checkbox" name="ano" value="1960">
+					<span>1960 a 1969</span>
+				</div><!--filtro-ano-->
+			</div><!--filtro-->
+			
+		</aside><!--filtros-->
+		<div class="vendas__box">
+			<div class="vendas__wrapper">
+				<div class="vendas__box--single" id="car1">
+					<img src="images/carro-1.jpg">
+					<h3>Opala</h3>
+        	<p>Um opala bonito e bem conservado - 1990</p>
+					<div class="cega">
+            <div class="btn">
+                <a href="" class="btnDetalhes">Mais detalhes</a>
+            </div>
+        </div>
+
+    		</div><!--vendas__box-single-->
+				<div class="vendas__box--single" id="car2">
+					<img src="images/carro-2.jpg">
+					<h3>Honda-civic</h3>
+        	<p>Potente e veloz - 2008</p>
+					<div class="cega">
+            <div class="btn">
+                <a href="" class="btnDetalhes">Mais detalhes</a>
+            </div>
+        </div>
+
+    		</div><!--vendas__box-single-->
+				<div class="vendas__box--single" id="car3">
+					<img src="images/carro-3.jpg">
+					<h3>Fiesta</h3>
+        	<p>Carro de passeio - 2012</p>
+					<div class="cega">
+            <div class="btn">
+                <a href="" class="btnDetalhes">Mais detalhes</a>
+            </div>
+        </div>
+    		</div><!--vendas__box-single-->
+			</div><!--vendas__wrapper-->
+		</div><!--vendas__box-->
+	</div><!--venda__box-->
+</section><!--venda-->
+
+<footer class="footer">
+	<div class="header__nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a style="color: rgb(235, 45, 45)!important" href="venda.html">Venda</a></li>
+			<li><a href="#galeria">Galeria</a></li>
+			<li><a href="#eventos">Eventos</a></li>
+			<li><a href="sobre.html">Sobre Nós</a></li>
+			<li><a href="index.html#contato">Contato</a></li>
+		</ul>
+	</div><!--header__nav-->
+	<div class="footer__direitos">
+		<p>Todos os direitos reservados a &copy; Caio Quirino Medeiros</p>
+	</div><!--footer__direitos-->
+</footer><!--footer-->
+
+<script src="js/control.js"></script>
+<script src="js/vendas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+@media only screen and (max-width: 760px) {
+    html, body {
+        font-size: 17px;
+    }
+    .main__cover {
+        justify-content: center;
+    }
+    .main__form h2 {
+        padding: 13px;
+    }
+    .chamada__title h2 {
+        font-size: 160%;
+    }
+    .chamada__title p {
+        font-size: 80%;
+    }
+    .mosaico__box {
+        padding: 0.4%;
+        display: block;
+    }
+    .mosaico__box--description {
+        font-size: 90%;
+        padding: 20px;
+        width: 100%;
+    }
+    .mosaico__box--image {
+        height: 250px;
+    }
+}
