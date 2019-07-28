@@ -47,19 +47,19 @@ a {
 }
 
 #dentista_thumb {
-  background-image: url("/dentista/imagens/dentista_thumb.png");
+  background-image: url("dentista/imagens/dentista_thumb.png");
 }
 #hotel_thumb {
-  background-image: url("/hotel/imagens/hotel_thumb.png");
+  background-image: url("hotel/imagens/hotel_thumb.png");
 }
 #startup_thumb {
-  background-image: url("/startup/images/startup_thumb.png");
+  background-image: url("startup/images/startup_thumb.png");
 }
 #tecnologia_thumb {
-  background-image: url("/tecnologia/imagens/tecnologia_thumb.png");
+  background-image: url("tecnologia/imagens/tecnologia_thumb.png");
 }
 #veiculos_thumb {
-  background-image: url("/veículos/images/veiculos_thumb.png");
+  background-image: url("veículos/images/veiculos_thumb.png");
 }
 
 .card h2 {
