@@ -55,6 +55,9 @@ a {
 #startup_thumb {
   background-image: url("startup/images/startup_thumb.png");
 }
+#omnifood_thumb {
+  background-image: url("omnifood/resources/img/omnifood_thumb.png");
+}
 #tecnologia_thumb {
   background-image: url("tecnologia/imagens/tecnologia_thumb.png");
 }
