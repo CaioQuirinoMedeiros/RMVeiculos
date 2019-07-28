@@ -1,112 +1,177 @@
 <!DOCTYPE <!DOCTYPE html>
 
-<html lagn='pt-br'>
+<html lagn="pt-br">
+  <head>
+    <title>Hotel</title>
 
-<head>
-    <title>Minha landing page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Descrição do documento" />
+    <meta name="keywords" content="palavras-chave, separadas, por, virgula" />
+    <meta name="author" content="Caio Quirino" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name='description' content='Descrição do documento'>
-    <meta name='keywords' content='palavras-chave, separadas, por, virgula'>
-    <meta name='author' content='Caio Quirino'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/queries.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/frames.css"
+    />
+    <link
+      href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="imagens/luggage.ico" />
+  </head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/queries.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/frames.css">
-    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
-</head>
+  <body>
+    <header class="header">
+      <div class="header__logo logo-1"></div>
+      <!--logo-1-->
+      <div class="header__logo logo-2"></div>
+      <!--logo-1-->
+    </header>
+    <!--header-->
 
-<body>
-    <header class='header'>
-        <div class='header__logo logo-1'></div><!--logo-1-->
-        <div class='header__logo logo-2'></div><!--logo-1-->
-    </header><!--header-->
+    <section class="main">
+      <div class="main__cover">
+        <div class="main__form">
+          <h2>Pode acreditar, por dentro é ainda mais bonito.</h2>
+          <form class="form">
+            <div class="form__input">
+              <label for="nome">Nome completo</label>
+              <input type="text" name="nome" id="nome" required />
+            </div>
+            <!--form__input-->
+            <div class="form__input">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <!--form__input-->
+            <div class="form__input">
+              <label for="telefone">Telefone</label>
+              <input type="text" name="telefone" id="telefone" required />
+            </div>
+            <!--form__input-->
+            <div class="form__input">
+              <input class="submit" type="submit" name="acao" value="Enviar" />
+            </div>
+            <!--form__input-->
+          </form>
+        </div>
+        <!--main__form-->
+      </div>
+      <!--main__cover-->
+    </section>
+    <!--main-->
 
-    <section class='main'>
-        <div class='main__cover'>
-            <div class='main__form'>
-                <h2>Pode acreditar, por dentro é ainda mais bonito.</h2>
-                <form class='form'>
-                    <div class='form__input'>
-                        <label for='nome'>Nome completo</label>
-                        <input type='text' name='nome' id='nome' required>
-                    </div><!--form__input-->
-                    <div class='form__input'>
-                        <label for='email'>Email</label>
-                        <input type='email' name='email' id='email' required>
-                    </div><!--form__input-->
-                    <div class='form__input'>
-                        <label for='telefone'>Telefone</label>
-                        <input type='text' name='telefone' id='telefone' required>
-                    </div><!--form__input-->
-                    <div class='form__input'>
-                        <input class='submit' type='submit' name='acao' value='Enviar'>
-                    </div><!--form__input-->
-                </form>
-            </div><!--main__form-->
-        </div><!--main__cover-->
-    </section><!--main-->
+    <section class="chamada">
+      <div class="chamada__arrow">
+        <i class="icon ion-md-arrow-round-down"></i>
+      </div>
+      <!--chamada__arrow-->
+      <div class="chamada__title">
+        <h2>Viva a vida que você sempre sonhou</h2>
+        <p>Coberturas e apartamentos de frente para o mar no João Paulo</p>
+      </div>
+      <!--chamada__title-->
+    </section>
+    <!--chamada-->
 
-    <section class='chamada'>
-        <div class='chamada__arrow'>
-            <i class='icon ion-md-arrow-round-down'></i>
-        </div><!--chamada__arrow-->
-        <div class='chamada__title'>
-            <h2>Viva a vida que você sempre sonhou</h2>
-            <p>Coberturas e apartamentos de frente para o mar no João Paulo</p>
-        </div><!--chamada__title-->
-    </section><!--chamada-->
+    <section class="mosaico">
+      <div class="mosaico__box box-left">
+        <div class="mosaico__box--image" id="box-1"></div>
+        <!--mosaico__box--image-->
+        <div class="mosaico__box--description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel
+            imperdiet neque tristique in. Integer non justo iaculis, blandit
+            lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.
+          </p>
+        </div>
+        <!--mosaico__box--description-->
+      </div>
+      <!--mosaico__box-->
 
-    <section class='mosaico'>
+      <div class="mosaico__box box-right">
+        <div class="mosaico__box--image" id="box-2"></div>
+        <!--mosaico__box--image-->
+        <div class="mosaico__box--description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel
+            imperdiet neque tristique in. Integer non justo iaculis, blandit
+            lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.
+          </p>
+        </div>
+        <!--mosaico__box--description-->
+      </div>
+      <!--mosaico__box-->
+      <div class="mosaico__box box-left">
+        <div class="mosaico__box--image" id="box-3"></div>
+        <!--mosaico__box--image-->
+        <div class="mosaico__box--description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel
+            imperdiet neque tristique in. Integer non justo iaculis, blandit
+            lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.
+          </p>
+        </div>
+        <!--mosaico__box--description-->
+      </div>
+      <!--mosaico__box-->
 
-        <div class='mosaico__box box-left'>
-            <div class='mosaico__box--image' id='box-1'>
-            </div><!--mosaico__box--image-->
-            <div class='mosaico__box--description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel imperdiet neque tristique in. Integer non justo iaculis, blandit lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.</p>
-            </div><!--mosaico__box--description-->
-            
-        </div><!--mosaico__box-->
+      <div class="mosaico__box box-right">
+        <div class="mosaico__box--image" id="box-4"></div>
+        <!--mosaico__box--image-->
+        <div class="mosaico__box--description">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel
+            imperdiet neque tristique in. Integer non justo iaculis, blandit
+            lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.
+          </p>
+        </div>
+        <!--mosaico__box--description-->
+      </div>
+      <!--mosaico__box-->
+    </section>
+    <!--mosaico-->
 
-        <div class='mosaico__box box-right'>
-            <div class='mosaico__box--image' id='box-2'>
-            </div><!--mosaico__box--image-->
-            <div class='mosaico__box--description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel imperdiet neque tristique in. Integer non justo iaculis, blandit lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.</p>
-            </div><!--mosaico__box--description-->
-    
-        </div><!--mosaico__box-->
-        <div class='mosaico__box box-left'>
-            <div class='mosaico__box--image' id='box-3'>
-            </div><!--mosaico__box--image-->
-            <div class='mosaico__box--description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel imperdiet neque tristique in. Integer non justo iaculis, blandit lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.</p>
-            </div><!--mosaico__box--description-->
-        </div><!--mosaico__box-->
-
-        <div class='mosaico__box box-right'>
-            <div class='mosaico__box--image' id='box-4'>
-            </div><!--mosaico__box--image-->
-            <div class='mosaico__box--description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt bibendum aliquet. Ut ullamcorper iaculis elit, vel imperdiet neque tristique in. Integer non justo iaculis, blandit lorem sed, molestie dolor. Integer pretium ante id nisi eleifend.</p>
-            </div><!--mosaico__box--description-->
-        </div><!--mosaico__box-->
-
-    </section><!--mosaico-->
-
-    <footer class='footer'>
-        <ul class='footer__logos'>
-            <li><a href='#'><i class='icon ion-logo-facebook'></i></a></li>
-            <li><a href='#'><i class='icon ion-logo-whatsapp'></i></a></li>
-            <li><a href='#'><i class='icon ion-logo-twitter'></i></a></li>
-            <li><a href='#'><i class='icon ion-logo-googleplus'></i></a></li>
-        </ul>
-        <p>Todos os direitos reservados</p>
+    <footer class="footer">
+      <ul class="footer__logos">
+        <li>
+          <a href="#"><i class="icon ion-logo-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon ion-logo-whatsapp"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon ion-logo-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="icon ion-logo-googleplus"></i></a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2019 by Caio Quirino. All rights reserved.</p>
     </footer>
-    
-</body>
-
+  </body>
 </html>
