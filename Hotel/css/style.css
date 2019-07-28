@@ -111,9 +111,9 @@ body {
 }
 
 .form__input .submit {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
   text-transform: uppercase;
   border: 1px solid #d63031;
